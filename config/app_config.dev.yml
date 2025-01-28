@@ -1,0 +1,11 @@
+---
+
+OCI:
+  USER: "ADMIN"
+  DSN: ""
+  COMPARTMENT_OCID: ""
+  WALLET_PATH: "/Users/slv/Projects/AIApps/conn"
+  AI:
+    INFERENCE_MODEL: "meta.llama-3.1-70b-instruct"
+    EMBEDDING_MODEL: "cohere.embed-english-v3.0"
+    SERVICE_ENDPOINT: "https://inference.generativeai.eu-frankfurt-1.oci.oraclecloud.com"
