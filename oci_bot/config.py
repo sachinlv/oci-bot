@@ -14,10 +14,10 @@ class Config():
             Question: {question}
     """
 
-    TABLE_NAME = "INCIDENT_DATA"
+    TABLE_NAME = "SAMPLE_DATA"
     deployment_env = os.getenv("IB_DEPLOYMENT_ENV") if os.getenv("IB_DEPLOYMENT_ENV") is not None  else "dev"
     CONFIG_FILE = f"config/app_config.{deployment_env}.yml"
-    CHAT_TITLE = "🦜🔗 Welcome to the Incident Bot"
+    CHAT_TITLE = "🦜🔗 Welcome to the Oracle Bot"
     CHAT_INPUT_TAG_LINE = "Enter your query ?"
     ROLE_USER = "user" # TODO: This should be fetched from Login
     ROLE_ASSISTANT = "assistant"
