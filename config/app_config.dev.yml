@@ -4,7 +4,7 @@ OCI:
   USER: "ADMIN"
   DSN: ""
   COMPARTMENT_OCID: ""
-  WALLET_PATH: "/Users/slv/Projects/AIApps/conn"
+  WALLET_PATH: ""
   AI:
     INFERENCE_MODEL: "meta.llama-3.1-70b-instruct"
     EMBEDDING_MODEL: "cohere.embed-english-v3.0"
